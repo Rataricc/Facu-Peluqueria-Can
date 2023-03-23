@@ -1,15 +1,18 @@
  .u-section-1 {
   background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
   min-height: 564px;
 }
 
 .u-section-1 .u-text-1 {
-  margin: 20px calc(((100% - 1140px) / 2) + 297px) 0 calc(((100% - 1140px) / 2));
+  margin: 20px 297px 0 0;
 }
 
 .u-section-1 .u-text-2 {
   font-size: 1.25rem;
-  margin: 20px calc(((100% - 1140px) / 2) + 415px) 0 calc(((100% - 1140px) / 2));
+  margin: 20px 415px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -18,107 +21,70 @@
   font-size: 1.25rem;
   letter-spacing: 1px;
   background-image: none;
-  margin: 30px auto 0 calc(((100% - 1140px) / 2));
+  margin: 30px auto 0 0;
   padding: 17px 30px;
 }
 
 .u-section-1 .u-image-1 {
-  width: 465px;
-  height: 465px;
-  margin: -302px 0 17px auto;
+  width: 482px;
+  height: 482px;
+  margin: -302px -67px 0 auto;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
-    margin-right: calc(((100% - 1140px) / 2) + 197px);
-    margin-left: calc(((100% - 1140px) / 2) + 100px);
+    margin-right: 97px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: calc(((100% - 1140px) / 2) + 315px);
-    margin-left: calc(((100% - 1140px) / 2) + 100px);
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 100px);
+    margin-right: 215px;
   }
 
   .u-section-1 .u-image-1 {
     width: 326px;
     height: 326px;
     margin-top: -146px;
-    margin-right: calc(((100% - 940px) / 2));
-    margin-bottom: 0;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 598px;
+  }
+
   .u-section-1 .u-text-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 210px);
-    margin-right: calc(((100% - 1140px) / 2) + 210px);
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-2 {
-    margin-left: calc(((100% - 1140px) / 2) + 210px);
-    margin-right: calc(((100% - 1140px) / 2) + 210px);
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 210px);
+    margin-right: 0;
   }
 
   .u-section-1 .u-image-1 {
     width: 261px;
     height: 261px;
-    margin-top: -117px;
-    margin-right: 0;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-1 .u-text-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 300px);
-    margin-right: calc(((100% - 1140px) / 2) + 300px);
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-left: calc(((100% - 1140px) / 2) + 300px);
-    margin-right: calc(((100% - 1140px) / 2) + 300px);
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 300px);
-  }
-
-  .u-section-1 .u-image-1 {
-    margin-right: calc(((100% - 1140px) / 2) + 281px);
+    margin-top: -103px;
+    margin-right: -19px;
+    margin-bottom: 20px;
   }
 }
 
 @media (max-width: 575px) {
-   .u-section-1 {
-    min-height: 753px;
+  .u-section-1 .u-sheet-1 {
+    min-height: 773px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 400px);
-    margin-right: calc(((100% - 1140px) / 2) + 400px);
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-left: calc(((100% - 1140px) / 2) + 400px);
-    margin-right: calc(((100% - 1140px) / 2) + 400px);
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 400px);
+    margin-top: 56px;
   }
 
   .u-section-1 .u-image-1 {
     width: 192px;
     height: 192px;
-    margin-top: 2px;
-    margin-right: 0;
+    margin-top: -14px;
+    margin-right: -50px;
+    margin-bottom: 0;
   }
 } .u-section-2 {
   background-image: url("images/9752f457faf2892b8e6cab1e340cc5462c5d621a4ceb2914ab94630ef3a89fabe3ab4e52fa5182f1b8744c084038b6360a9df78e929c1831838f6a_1280.jpg");
@@ -652,8 +618,8 @@
 }
 
 .u-section-7 .u-layout-wrap-1 {
-  margin-top: 84px;
-  margin-bottom: 56px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .u-section-7 .u-layout-cell-1 {
@@ -812,10 +778,6 @@
   padding: 20px 30px;
 }
 
-.u-section-8 .u-text-3 {
-  font-size: 1.25rem;
-}
-
 .u-section-8 .u-accordion-link-2 {
   font-weight: 700;
   font-size: 1.25rem;
@@ -836,10 +798,6 @@
   padding: 20px 30px;
 }
 
-.u-section-8 .u-text-4 {
-  font-size: 1.25rem;
-}
-
 .u-section-8 .u-accordion-link-3 {
   font-weight: 700;
   font-size: 1.25rem;
@@ -858,10 +816,6 @@
 
 .u-section-8 .u-container-layout-3 {
   padding: 20px 30px;
-}
-
-.u-section-8 .u-text-5 {
-  font-size: 1.25rem;
 }
 
 .u-section-8 .u-accordion-link-4 {
