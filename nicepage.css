@@ -41565,17 +41565,17 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-btn-2 {
-    margin-top: 29px;
+    margin-top: 15px;
+    margin-left: -1px;
+    margin-right: -1px;
   }
 
   .u-footer .u-btn-3 {
-    margin-top: 11px;
+    margin-top: 25px;
   }
 
   .u-footer .u-text-3 {
-    margin-top: -25px;
-    margin-right: 0;
-    margin-bottom: 11px;
+    margin: -14px 0 0;
   }
 }
 
